@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dough Re Mi Bakery</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Header dengan logo dan menu -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="Dough Re Mi.png" alt="Dough Re Mi Bakery">
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Slider gambar roti -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide" style="background-image: url('Slideshow1.png')"></div>
+            <div class="slide" style="background-image: url('Slideshow2.png')"></div>
+            <div class="slide" style="background-image: url('Slideshow3.png')"></div>
+        </div>
+        <button class="slider-arrow prev">❮</button>
+        <button class="slider-arrow next">❯</button>
+        <div class="slider-nav">
+            <div class="slider-dot active"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+        </div>
+    </div>
+
+    <!-- Halaman Home -->
+    <section id="home" class="page-section">
+        <div class="welcome-section">
+            <h2>Selamat Datang di Dough Re Mi</h2>
+            <p>Dough Re Mi adalah toko roti yang menyajikan berbagai macam roti dan kue lezat dengan bahan-bahan berkualitas tinggi. Kami berkomitmen untuk memberikan pengalaman kuliner terbaik bagi pelanggan kami.</p>
+            <a href="#products" class="cta-button">Lihat Produk Kami</a>
+        </div>
+    </section>
+
+    <!-- Halaman About Us -->
+    <section id="about" class="page-section">
+        <h2 class="page-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Dough Re Mi didirikan pada tahun 2010 dengan misi untuk menyajikan roti dan kue terlezat dengan bahan-bahan terbaik. Kami percaya bahwa kualitas bahan baku adalah kunci dari rasa yang luar biasa.</p>
+                <p>Tim kami terdiri dari para ahli baker yang berpengalaman dan penuh semangat dalam menciptakan berbagai macam produk roti, kue, dan pastry. Setiap hari, kami membuat produk segar dengan resep tradisional dan inovasi modern.</p>
+                <p>Kami berkomitmen untuk memberikan pelayanan terbaik dan pengalaman berbelanja yang menyenangkan bagi setiap pelanggan yang datang ke toko kami.</p>
+            </div>
+            <div class="about-image">
+                <img src="GambarToko.png" alt="Toko Dough Re Mi">
+            </div>
+        </div>
+    </section>
+
+    <!-- Halaman Products -->
+    <section id="products" class="page-section">
+        <h2 class="page-title">Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="RotiTawarPremium.jpg" alt="Roti Tawar Premium">
+                </div>
+                <div class="product-info">
+                    <h3>Roti Tawar Premium</h3>
+                    <p>Roti tawar dengan tekstur lembut dan rasa yang enak, dibuat dari bahan-bahan pilihan.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="KueBlackForest.jpg" alt="Kue Black Forest">
+                </div>
+                <div class="product-info">
+                    <h3>Kue Black Forest</h3>
+                    <p>Kue cokelat dengan lapisan cream dan cherry, cocok untuk acara spesial.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Croissant.jpg" alt="Croissant">
+                </div>
+                <div class="product-info">
+                    <h3>Croissant</h3>
+                    <p>Croissant dengan tekstur berlapis dan rasa mentega yang khas, tersedia berbagai varian.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="DonatSegar.jpeg" alt="Donat Segar">
+                </div>
+                <div class="product-info">
+                    <h3>Donat Segar</h3>
+                    <p>Donat lembut dengan berbagai topping menarik, dibuat setiap hari untuk kesegaran maksimal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Halaman Contact -->
+    <section id="contact" class="page-section">
+        <h2 class="page-title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <span>📍</span>
+                        <p>Jl. Roti Enak No. 123, Jakarta Selatan, Indonesia</p>
+                    </div>
+                    <div class="contact-detail">
+                        <span>📞</span>
+                        <p>(021) 1234-5678</p>
+                    </div>
+                    <div class="contact-detail">
+                        <span>✉️</span>
+                        <p>info@doughremi.com</p>
+                    </div>
+                    <div class="contact-detail">
+                        <span>🕒</span>
+                        <p>Senin - Minggu: 07.00 - 21.00 WIB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Kirim Pesan</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>Dough Re Mi adalah toko roti premium yang menyajikan berbagai macam roti dan kue lezat dengan bahan-bahan berkualitas tinggi.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Tim Pembuat Website</h3>
+                <div class="credits">
+                    <p>Michelle Sydney Hidajat/22</p>
+                    <p>Alicia Bianca Gracia/02</p>
+                    <p>Gladis Oliver/11</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Ikuti Kami</h3>
+                <p>Instagram: @doughremibakery</p>
+                <p>Facebook: Dough Re Mi Bakery</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Dough Re Mi Bakery. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
